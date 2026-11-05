@@ -1,0 +1,23 @@
+{
+  "name": "sounds-fog-feedback",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sounds & Fog - Customer Feedback System (Riyadh)",
+  "type": "module",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node --no-warnings server.js",
+    "dev": "node --no-warnings --watch server.js",
+    "setup": "node --no-warnings scripts/setup.js",
+    "import": "node --no-warnings scripts/import-excel.js",
+    "seed": "node --no-warnings scripts/seed.js",
+    "backup": "node --no-warnings scripts/backup.js",
+    "qr": "node --no-warnings scripts/make-qr.js",
+    "test": "node --no-warnings --test \"test/*.test.js\"",
+    "reanalyze": "node --no-warnings scripts/reanalyze.js"
+  },
+  "dependencies": {},
+  "license": "UNLICENSED"
+}

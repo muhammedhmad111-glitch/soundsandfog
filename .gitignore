@@ -1,0 +1,17 @@
+# البيئة والأسرار
+.env
+
+# قاعدة البيانات والنسخ الاحتياطية
+data/*.db
+data/*.db-wal
+data/*.db-shm
+data/backups/
+data/*.png
+data/*.svg
+
+# أدوات النظام
+node_modules/
+npm-debug.log*
+.DS_Store
+Thumbs.db
+*.local
